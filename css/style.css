@@ -22,6 +22,7 @@ header {
 .container {
    margin: auto;
    width: 1000px;
+   height: 100%;
 }
 
 #logo, .login, .central {
@@ -129,4 +130,33 @@ header {
 .button-big.btn-dark a {
    background-color: black;
    color: white;
+}
+
+
+/* Rule Main  */
+
+
+.img-left {
+   height: 600px;
+   margin-top: 100px;
+}
+.immage-left {
+   float: left;
+   width: calc(70% - 100px);
+   margin-right: 100px;
+   height: 100%;
+   
+}
+.immage-left img {
+   object-position: center;
+   object-fit: cover;
+}
+.text-right {
+   width: 30%;
+   float: left;
+}
+
+.text-right h2 {
+   font-size: 40px;
+   margin-bottom: 20px;
 }
