@@ -1,5 +1,61 @@
-* [
+* {
    margin: 0;
-   padding: 0; 
+   padding: 0;
    box-sizing: border-box;
-]
+}
+
+/* Sezione Header  */
+
+header {
+   color: white;
+}
+
+/* Header superiore  */
+
+.top {
+   background-color: rgb(59,97,219);
+   height: 70px;
+   /* line-height: 70px; */
+}
+
+.container {
+   margin: 0 auto;
+   width: 1000px;
+   height: 70px;
+}
+
+#logo, .login, .central {
+   float: left;
+   border: 1px solid black;
+   height: 70px;
+}
+
+#logo, .login {
+   width: 20%;
+}
+
+.central {
+   width: 60%;
+   text-align: center;
+   line-height: 70px;
+}
+
+
+.navigation li{
+   display: inline-block;
+   margin: 0 10px;
+}
+
+.navigation li a {
+   text-decoration: none;
+   color: white;
+   font-family: sans-serif;
+}
+.navigation li a:hover {
+   text-decoration: underline;
+}
+
+.login {
+   text-align: right;
+   line-height: 70px;
+}
