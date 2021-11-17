@@ -3,19 +3,20 @@
    padding: 0;
    box-sizing: border-box;
 }
-
-/* Sezione Header  */
+body {
+   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+/* Section Header  */
 
 header {
    color: white;
 }
 
-/* Header superiore  */
+/* Header top  */
 
-.top {
+.header-top {
    background-color: rgb(59,97,219);
    height: 70px;
-   /* line-height: 70px; */
 }
 
 .container {
@@ -26,12 +27,14 @@ header {
 
 #logo, .login, .central {
    float: left;
-   border: 1px solid black;
    height: 70px;
 }
 
 #logo, .login {
    width: 20%;
+}
+
+#logo {
 }
 
 .central {
@@ -55,7 +58,42 @@ header {
    text-decoration: underline;
 }
 
+
+
 .login {
    text-align: right;
    line-height: 70px;
+}
+
+.button-small a {
+   text-decoration: none;
+   background-color: white;
+   padding: 10px 15px;
+   border-radius: 20px;
+   color: black;
+}
+
+
+/* Header Bottom  */
+
+.header-bottom {
+   background-image: url('..//img/jumbo.png');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 500px;
+   position: relative;
+}
+
+.title-header {
+   text-align: center;
+   width: 50%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.title-header h1 {
+   margin: ;
 }
