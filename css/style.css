@@ -20,22 +20,23 @@ header {
 }
 
 .container {
-   margin: 0 auto;
+   margin: auto;
    width: 1000px;
-   height: 70px;
 }
 
 #logo, .login, .central {
    float: left;
    height: 70px;
+   line-height: 70px;
 }
 
 #logo, .login {
    width: 20%;
+
 }
 
 #logo img {
-   display: inline-block;
+   vertical-align: middle;
 }
 
 .central {
@@ -97,6 +98,7 @@ header {
 
 .title-header p {
    margin-bottom: 30px;
+   line-height: 30px;
 }
 
 .title-header h1 {
