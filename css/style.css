@@ -4,7 +4,7 @@
    box-sizing: border-box;
 }
 body {
-   font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+   font-family: 'Whitney', 'Helvetica Neue', 'Helvetica', 'Arial, sans-serif';
 }
 /* Section Header  */
 
@@ -34,7 +34,8 @@ header {
    width: 20%;
 }
 
-#logo {
+#logo img {
+   display: inline-block;
 }
 
 .central {
@@ -94,6 +95,36 @@ header {
    transform: translate(-50%, -50%);
 }
 
+.title-header p {
+   margin-bottom: 30px;
+}
+
 .title-header h1 {
-   margin: ;
+   margin-bottom: 40px;
+   font-size: 50px;
+}
+
+.button-big {
+   display: inline-block;
+   border-radius: 30px;
+   margin: 0 20px;
+}
+
+.button-big a {
+   display: inline-block;
+   text-decoration: none;
+   padding: 15px 25px;
+   border-radius: 30px;
+}
+.button-big a:hover {
+   transform: scale(1.1);
+}
+
+.button-big.btn-light a{
+   background-color: white;
+   color: black;
+}
+.button-big.btn-dark a {
+   background-color: black;
+   color: white;
 }
