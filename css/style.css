@@ -143,6 +143,8 @@ header {
 /* Rule Main  */
 
 
+/* Section with img left  */
+
 .img-left {
    height: 600px;
    margin-top: 100px;
@@ -172,7 +174,10 @@ header {
 
 
 
+/* Section with img right  */
+
 .img-right {
+   /* background-image: url('..//img/wave.svg'), linear-gradient(rgb(233, 229, 229), lightpink); */
    height: 600px;
    margin-top: 100px;
 }
@@ -197,3 +202,59 @@ header {
    margin-bottom: 30px;
 }
 
+
+/* Section with img center  */
+
+.center {
+   margin-bottom: 80px;
+}
+.text-center {
+   width: 100%;
+   text-align: center;
+}
+.text-center h2 {
+   font-size: 40px;
+   margin-bottom: 20px;
+}
+.text-center p {
+   line-height: 25px;
+}
+
+
+
+.main-footer {
+   position: relative;
+   text-align: center;
+   height: 100px;
+}
+.main-footer h3 {
+   font-size: 25px;
+}
+.question {
+   position: absolute;
+   top: o;
+   left: 50%;
+   transform: translateX(-50%);
+   background-image: url('../img/stars.svg');
+   background-position: center;
+   background-size: contain;
+   background-repeat: repeat;
+   height: 50px;
+   width: 50%;
+}
+
+.btn-purple {
+   background-color: rgb(145,161,222);
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   border-radius: 30px;
+}
+.btn-purple a {
+   color: white;
+   display: inline-block;
+   text-decoration: none;
+   padding: 15px 25px;
+
+}
