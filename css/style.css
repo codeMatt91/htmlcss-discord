@@ -142,21 +142,23 @@ header {
 }
 .immage-left {
    float: left;
-   width: calc(70% - 100px);
-   margin-right: 100px;
+   width: 65%;
    height: 100%;
-   
+   padding-left: 40px;
 }
 .immage-left img {
-   object-position: center;
-   object-fit: cover;
+   width: 80%;
 }
 .text-right {
-   width: 30%;
+   width: 35%;
    float: left;
+   padding: 20px 20px 0 15px;
 }
 
 .text-right h2 {
    font-size: 40px;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
+}
+.text-right p {
+   line-height: 25px;
 }
